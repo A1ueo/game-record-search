@@ -5,18 +5,18 @@ import java.util.List;
 
 public record InfoVo(
     String endOfGameResult,
-    long gameCreation,
-    long gameDuration,
-    long gameEndTimestamp,
-    long gameId,
+    Long gameCreation,
+    Long gameDuration,
+    Long gameEndTimestamp,
+    Long gameId,
     String gameMode,
     String gameName,
-    long gameStartTimestamp,
+    Long gameStartTimestamp,
     String gameType,
-    int madId,
+    Integer mapId,
     List<ParticipantVo> participants,
     String platformId,
-    int queueId,
+    Integer queueId,
     List<TeamVo> teams,
     String tournamentCode
 ) {

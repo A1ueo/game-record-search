@@ -2,38 +2,38 @@ package com.a1ueo.search.lol.vo.match;
 
 
 public record ParticipantVo(
-    int assists,
-    int baronKills,
-    int bountyLevel,
-    int champExperience,
-    int champLevel,
-    int championId,
+    Integer assists,
+    Integer baronKills,
+//    Integer bountyLevel,
+    Integer champExperience,
+    Integer champLevel,
+    Integer championId,
     String championName,
 
-    int deaths,
-    int kills,
+    Integer deaths,
+    Integer kills,
 
-    int goldEarned,
-    int goldSpent,
+    Integer goldEarned,
+    Integer goldSpent,
 
-    int item0,
-    int item1,
-    int item2,
-    int item3,
-    int item4,
-    int item5,
-    int item6,
+    Integer item0,
+    Integer item1,
+    Integer item2,
+    Integer item3,
+    Integer item4,
+    Integer item5,
+    Integer item6,
 
     String lane,          // 수정: 실제 String
     String role,
 
-    int participantId,
+    Integer participantId,
     String puuid,
     String riotIdGameName,
     String riotIdTagline,
 
-    int teamId,
-    boolean win,
+    Integer teamId,
+    Boolean win,
 
     PerksVo perks
 ) {
