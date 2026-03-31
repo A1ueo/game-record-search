@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: game-record-search
+
+
+# api 키
+riot:
+  api-key: ${RIOT_API_KEY}
